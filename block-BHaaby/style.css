@@ -1,0 +1,141 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+
+/*custom*/
+body{
+    font-family:  'Open Sans', sans-serif;;
+    background-color: #D4CEA7;
+}
+.flex{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.container{
+    width: 80%;
+    margin: 0 10%;
+}
+/*header*/
+header{
+    background-color: #F46026;
+    padding: 30px 0;
+}
+.nav a{
+    margin-left: 35px;
+    text-transform: capitalize;
+    text-decoration: none;
+    color: white;
+    font-size: large;
+    font-weight: 500;
+}
+
+/*main*/
+
+.col{
+    width: 30%;
+    height: 450px;
+    margin: 20px 2.5% 40px 0;
+    background-color: #085979;
+    box-shadow: 8px 8px 8px #625E4B;
+}
+.col1{
+    margin: 20px 40px;
+    color: #C1C2A2;
+    font-size: large;
+    font-weight: 600;
+    line-height: 1.6;
+    text-transform: capitalize;
+}
+.col1ol{
+    list-style-type: decimal;
+}
+.col2ul{
+    list-style-type: disc;
+}
+.col2ol{
+    margin-left: 40px;
+    list-style-type: decimal;
+}
+.col2ulsquare{
+    margin-left: 60px;
+    list-style-type: square;
+}
+.col1 img{
+    height: 15px;
+    width: 15px;
+    margin-right: 15px;
+}
+.col3{
+    line-height: 2.5;
+}
+
+dt{
+    font-size: x-large;
+    font-weight: 500;
+    text-transform: capitalize;
+    color: #272E22;
+    line-height: 1.5;
+}
+dd{
+    font-size: medium;
+    font-weight: 500;
+    color: #6F6F69;
+    margin: 20px 30px;
+    line-height: 1.5;
+}
+
+/*footer*/
+
+footer{
+    background-color: #252C22;
+    padding: 40px 0;
+}
